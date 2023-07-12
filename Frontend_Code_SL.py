@@ -11,8 +11,8 @@ from tensorflow.keras.applications.resnet50 import preprocess_input
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Set the paths
-model_path = "model.h5"
-labels_path = "labels.txt"
+model_path = r"model.h5"
+labels_path = r"labels.txt"
 des_path = f"des"
  
 # Load the pre-trained ResNet50 model
