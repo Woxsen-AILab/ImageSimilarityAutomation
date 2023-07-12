@@ -1,0 +1,79 @@
+{
+  "images": {
+    "REFIMGCG91DP4T1UU39.jpg": {
+      "referenceImageId": "REFIMGCG91DP4T1UU39",
+      "labels": [
+        "SHAPE",
+        "DETAILS"
+      ],
+      "primary": false
+    },
+    "REFIMGCECZG82VUDQEP.jpg": {
+      "referenceImageId": "REFIMGCECZG82VUDQEP",
+      "labels": [
+        "COLOR",
+        "SHAPE",
+        "DIMENSION",
+        "TEXTURE",
+        "MATERIAL",
+        "DETAILS"
+      ],
+      "primary": true
+    },
+    "REFIMGC7PNZ8FWT65AX.jpg": {
+      "referenceImageId": "REFIMGC7PNZ8FWT65AX",
+      "labels": [
+        "SHAPE",
+        "DETAILS"
+      ],
+      "primary": false
+    },
+    "REFIMGC8E4ERPVTG5KM.jpg": {
+      "referenceImageId": "REFIMGC8E4ERPVTG5KM",
+      "labels": [
+        "SHAPE",
+        "DETAILS"
+      ],
+      "primary": false
+    },
+    "REFIMGCNE2NCG0L1CQ8.jpg": {
+      "referenceImageId": "REFIMGCNE2NCG0L1CQ8",
+      "labels": [
+        "SHAPE",
+        "DETAILS"
+      ],
+      "primary": false
+    },
+    "REFIMGCCP3MGXPTK8XK.jpg": {
+      "referenceImageId": "REFIMGCCP3MGXPTK8XK",
+      "labels": [
+        "SHAPE",
+        "DETAILS"
+      ],
+      "primary": false
+    },
+    "REFIMGCZX90M9PYVEW0.jpg": {
+      "referenceImageId": "REFIMGCZX90M9PYVEW0",
+      "labels": [
+        "SHAPE",
+        "DETAILS"
+      ],
+      "primary": false
+    }
+  },
+  "asin": "B09XWLQKS8",
+  "marketplace": 6,
+  "partnerOrderId": "PTRC01ZFMZRYJYBJ",
+  "productDimensionList": [
+    {
+      "productCategory": "Vase",
+      "lengthInCms": 40.0,
+      "widthInCms": 80.0,
+      "heightInCms": 60.0
+    }
+  ],
+  "multiDimensionProduct": false,
+  "dimensionWorkflowType": "Re-Charter",
+  "productType": "BARBECUE_GRILL",
+  "focalLength": 60.0
+}
