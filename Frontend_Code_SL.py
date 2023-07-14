@@ -13,7 +13,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 # Set the paths
 model_path = r"model.h5"
 labels_path = r"labels.txt"
-des_path = f"des"
+des_path = f"des/"
  
 # Load the pre-trained ResNet50 model
 model = ResNet50(weights='imagenet', include_top=False, pooling='avg')
@@ -127,11 +127,11 @@ def main():
 
             # Print the predicted category
             st.subheader("Predicted Category:")
-            st.write(class_name[2:])
+            st.write(class_name)
 
             # Check if the user wants to add the image to the predicted category folder
             if st.button("Add Image to Predicted Category"):
-                shutil.copy(image_path, os.path.join(des_path, class_name[3:-1]))
+                shutil.copy(image_path, os.path.join(des_path, class_name[:-1]))
 
             # Check if the user wants to create a new category manually for this image
             if st.button("Create New Category"):
@@ -145,7 +145,7 @@ def main():
             if st.button("continue"):
                 pass
             # Select the folder based on the predicted category
-            folder_path = os.path.join(des_path, class_name[3:-1])
+            folder_path = des_path + class_name[:-1] +"/"
     
             # Perform similarity matching
             top_image_paths, top_similarity_scores = find_similarity(image_path, folder_path)
